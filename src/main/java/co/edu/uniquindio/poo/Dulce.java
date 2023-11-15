@@ -11,7 +11,6 @@ public class Dulce extends Producto implements Impuesto {
         assert valor >= 0;
     }
 
-    // Implementación del método de la interfaz Impuesto para dulces
     public double calcularImpuesto() {
         double impuestoBase = 0.1;
         double impuestoAdicional = (contenidoAzucar > 0.5) ? 0.1 : 0.0;
